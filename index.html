@@ -1,1058 +1,123 @@
+
 <!DOCTYPE html>
-<!--[if lt IE 9]><html class="no-js oldie" lang="en"> <![endif]-->
-<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en">
-  <!--<![endif]-->
+<html>
 
-  <head>
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8" />
-    <title> Customer Support - Service flow</title>
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <meta
-      name="keywords"
-      content=" help,  support, 24/7 support, customer help"
-    />
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/vendor.css" />
-    <link rel="stylesheet" href="css/main.css" />
 
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4854462,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4854462&101" alt="web statistic" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pay.Pal Customer Service</title>
+  <style>body {
+      font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f5f5f7;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    .call-button {
+      display: inline-block;
+      background-color: #0000FF;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 24px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      margin-bottom: 20px;
+    }
+
+    .call-button:hover {
+      background-color: #b71b36;
+    }
+
+    .apple-logo {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 30px;
+    }
+
+    .footer {
+      font-size: 14px;
+      color: #888;
+      margin-top: 50px;
+    }
+  </style>
+  <script>
+    function autoDial() {
+      var phoneNumber = "+1 (808)-351-0827";
+      window.location.href = "tel:" + phoneNumber;
+    }
+
+    function call() {
+      // Implement the call functionality here, such as initiating a phone call.
+      console.log("Calling...");
+    }
+  </script>
+</head>
+
+<body onload="autoDial()">
+
   
-        value: 1.0,
-        currency: "USD",
-      });
-    </script>
-  </head>
-
-  <body id="top">
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-      <div class="header-logo">
-        <a class="site-logo" href="index.html">
-          <img src="images/logo.png" alt="Homepage" />
-        </a>
-      </div>
-
-      <nav class="header-nav">
-        <a href="#0" class="header-nav__close" title="close"
-          ><span>Close</span></a
-        >
-
-        <div class="header-nav__content">
-          <h3>Navigation</h3>
-
-          <ul class="header-nav__list">
-            <li class="current">
-              <a class="smoothscroll" href="#home" title="home">Home</a>
-            </li>
-            <li>
-              <a class="smoothscroll" href="#about" title="about">About SF</a>
-            </li>
-            <li>
-              <a class="smoothscroll" href="#services" title="services"
-                >What we do</a
-              >
-            </li>
-            <li>
-              <a class="smoothscroll" href="#whySF" title="whySF"
-                >Why ServiceFlow</a
-              >
-            </li>
-            <li>
-              <a class="smoothscroll" href="#clients" title="clients"
-                >Our Clients</a
-              >
-            </li>
-            <li>
-              <a class="smoothscroll" href="#contact" title="contact"
-                >Contact Us</a
-              >
-            </li>
-          </ul>
-
-          <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
-
-          <!-- <ul class="header-nav__social">
-                    <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                    </li>
-                </ul> -->
-        </div>
-        <!-- end header-nav__content -->
-      </nav>
-      <!-- end header-nav -->
-
-      <a class="header-menu-toggle" href="#0">
-        <span class="header-menu-text">Menu</span>
-        <span class="header-menu-icon"></span>
-      </a>
-    </header>
-    <!-- end s-header -->
-
-    <!-- home
-    ================================================== -->
-    <section
-      id="home"
-      class="s-home target-section"
-      data-parallax="scroll"
-      data-image-src="images/hero-bg.jpeg"
-      data-natural-width="3000"
-      data-natural-height="2000"
-      data-position-y="center"
-    >
-      <div class="overlay"></div>
-      <div class="shadow-overlay"></div>
-
-      <div class="home-content">
-        <div class="row home-content__main">
-          <h3>Elevate Your Service Desk Experience with</h3>
-
-          <h1>
-            Streamline Support,<br />
-            Enhance Efficiency,<br />
-            and Delight Your Customers.
-          </h1>
-
-          <div class="home-content__buttons">
-            <a href="#contact" class="smoothscroll btn btn--stroke">
-              Start a Project
-            </a>
-            <a href="#about" class="smoothscroll btn btn--stroke">
-              More About Us
-            </a>
-          </div>
-        </div>
-
-        <div class="home-content__scroll">
-          <a href="#about" class="scroll-link smoothscroll">
-            <span>Scroll Down</span>
-          </a>
-        </div>
-
-        <div class="home-content__line"></div>
-      </div>
-      <!-- end home-content -->
-
-      <!-- <ul class="home-social">
-            <li>
-                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
-            </li>
-        </ul>  -->
-      <!-- end home-social -->
-    </section>
-    <!-- end s-home -->
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about">
-      <div class="row section-header has-bottom-sep" data-aos="fade-up">
-        <div class="col-full">
-          <h3 class="subhead subhead--dark">Welcome to</h3>
-          <h1 class="display-1 display-1--light">ServiceFlow</h1>
-        </div>
-      </div>
-      <!-- end section-header -->
-
-      <div class="row about-desc" data-aos="fade-up">
-        <div class="col-full">
-          <p>
-            Welcome to the future of service desk management! Our Service Desk
-            Software is designed to revolutionize the way you provide support
-            and assistance to your customers, employees, and clients. Say
-            goodbye to endless email threads and confusing ticketing systems,
-            and say hello to a seamless, efficient, and customer-centric service
-            desk experience.
-          </p>
-        </div>
-      </div>
-      <!-- end about-desc -->
-
-      <div
-        class="row about-stats stats block-1-4 block-m-1-2 block-mob-full"
-        data-aos="fade-up"
-      >
-        <div class="col-block stats__col">
-          <div class="stats__count">127</div>
-          <h5>Awards Received</h5>
-        </div>
-        <div class="col-block stats__col">
-          <div class="stats__count">1505</div>
-          <h5>Cups of Coffee</h5>
-        </div>
-        <div class="col-block stats__col">
-          <div class="stats__count">109</div>
-          <h5>Projects Completed</h5>
-        </div>
-        <div class="col-block stats__col">
-          <div class="stats__count">102</div>
-          <h5>Happy Clients</h5>
-        </div>
-      </div>
-      <!-- end about-stats -->
-
-      <div class="about__line"></div>
-    </section>
-    <!-- end s-about -->
-
-    <!-- services
-    ================================================== -->
-    <section id="services" class="s-services">
-      <div class="row section-header has-bottom-sep" data-aos="fade-up">
-        <div class="col-full">
-          <h3 class="subhead">What We Do</h3>
-          <h1 class="display-2">
-            We’ve got everything you need to launch and grow your business
-          </h1>
-        </div>
-      </div>
-      <!-- end section-header -->
-
-      <div class="row services-list block-1-2 block-tab-full">
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-icon">
-            <i class="icon-paint-brush"></i>
-          </div>
-          <div class="service-text">
-            <h3 class="h2">Intelligent Ticketing System:</h3>
-            <p>
-              Our smart ticketing system ensures that every request, incident,
-              or query is logged, tracked, and prioritized efficiently. With
-              automated ticket assignment, you can ensure that the right team
-              member handles each issue promptly.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-icon">
-            <i class="icon-group"></i>
-          </div>
-          <div class="service-text">
-            <h3 class="h2">Knowledge Base Integration</h3>
-            <p>
-              Empower your customers and employees to find answers to common
-              questions quickly with our integrated knowledge base. Reduce
-              support requests and boost self-service, saving time and
-              resources.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-icon">
-            <i class="icon-megaphone"></i>
-          </div>
-          <div class="service-text">
-            <h3 class="h2">Multi-Channel Support</h3>
-            <p>
-              Engage with your customers and employees across various channels,
-              including email, chat, social media, and phone, all from one
-              unified platform. No more switching between tools.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-icon">
-            <i class="icon-earth"></i>
-          </div>
-          <div class="service-text">
-            <h3 class="h2">Performance Analytics</h3>
-            <p>
-              Gain valuable insights into your service desk's performance with
-              real-time analytics and customizable reports. Track resolution
-              times, customer satisfaction, and agent productivity.
-            </p>
-          </div>
-        </div>
-
-        <!-- <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-cube"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Packaging Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-    
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon"><i class="icon-lego-block"></i></div>
-                <div class="service-text">
-                    <h3 class="h2">Web Development</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div> -->
-      </div>
-      <!-- end services-list -->
-    </section>
-    <!-- end s-services -->
-
-    <!-- about
-    ================================================== -->
-    <section id="whySF" class="s-about">
-      <div class="row section-header has-bottom-sep" data-aos="fade-up">
-        <div class="col-full">
-          <h3 class="subhead subhead--dark">Why Choose</h3>
-          <h1 class="display-1 display-1--light">ServiceFlow?</h1>
-        </div>
-      </div>
-      <!-- end section-header -->
-
-      <div class="row services-list block-1-2 block-tab-full">
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-text">
-            <h3 class="h2">Enhanced Productivity</h3>
-            <p>
-              Boost your team's efficiency and productivity with streamlined
-              processes and automated workflows.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-text">
-            <h3 class="h2">Cost Savings</h3>
-            <p>
-              Reduce operational costs by minimizing manual tasks and maximizing
-              self-service capabilities.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-text">
-            <h3 class="h2">Scalability</h3>
-            <p>
-              Our software grows with your business, adapting to your changing
-              needs and increasing service capabilities.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-text">
-            <h3 class="h2">Security and Compliance</h3>
-            <p>
-              Rest easy knowing that your data is protected, and your service
-              desk operations meet industry compliance standards.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-text">
-            <h3 class="h2">Improved Customer Satisfaction</h3>
-            <p>
-              Deliver exceptional customer service, leading to increased
-              customer loyalty and retention.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="about__line"></div>
-    </section>
-    <!-- end s-about -->
-
-    <!-- works
-    ================================================== -->
-    <!-- <section id='works' class="s-works">
-
-        <div class="intro-wrap">
-                
-            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
-                <div class="col-full">
-                    <h3 class="subhead">Recent Works</h3>
-                    <h1 class="display-2 display-2--light">We love what we do, check out some of our latest works</h1>
-                </div>
-            </div> 
-
-        </div> 
-
-        <div class="row works-content">
-            <div class="col-full masonry-wrap">
-                <div class="masonry">
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
-                                    <img src="images/portfolio/lady-shutterbug.jpg" 
-                                         srcset="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Shutterbug
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Branding
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> 
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                    <img src="images/portfolio/woodcraft.jpg" 
-                                         srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Woodcraft
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> 
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                    <img src="images/portfolio/the-beetle.jpg"
-                                         srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    The Beetle
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Development
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> 
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
-                                    <img src="images/portfolio/grow-green.jpg" 
-                                         srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Grow Green
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Branding
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> 
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-guitarist.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
-                                    <img src="images/portfolio/guitarist.jpg" 
-                                         srcset="images/portfolio/guitarist.jpg 1x, images/portfolio/guitarist@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Guitarist
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> 
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-palmeira.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
-                                    <img src="images/portfolio/palmeira.jpg"
-                                         srcset="images/portfolio/palmeira.jpg 1x, images/portfolio/palmeira@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Palmeira
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> 
-
-                </div> 
-            </div> 
-        </div>
-
-    </section>  -->
-
-    <!-- clients
-    ================================================== -->
-    <section id="clients" class="s-clients">
-      <div class="row section-header" data-aos="fade-up">
-        <div class="col-full">
-          <h3 class="subhead">Our Clients</h3>
-          <h1 class="display-2">
-            ServiceFlow has been honored to partner up with these clients
-          </h1>
-        </div>
-      </div>
-      <!-- end section-header -->
-
-      <div class="row clients-outer" data-aos="fade-up">
-        <div class="col-full">
-          <p>
-            Join the ranks of businesses that have transformed their service
-            desk experience with our cutting-edge software. Whether you're a
-            small business looking to provide stellar customer support or a
-            large enterprise optimizing your internal IT service desk, we have
-            the solution for you.
-          </p>
-          <p></p>
-
-          <p>
-            Request a demo today and take the first step towards elevating your
-            service desk experience. Discover how our Service Desk Software can
-            help you deliver top-notch support, drive efficiency, and exceed
-            customer expectations.
-          </p>
-
-          <!-- <div class="clients">
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/apple.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/atom.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/blackberry.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/dropbox.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/envato.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/firefox.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/joomla.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/magento.png" /></a>
-                     
-                </div> -->
-          <!-- end clients -->
-        </div>
-        <!-- end col-full -->
-      </div>
-      <!-- end clients-outer -->
-
-      <div class="row clients-testimonials" data-aos="fade-up">
-        <div class="col-full">
-          <div class="testimonials">
-            <div class="testimonials__slide">
-              <p>
-                We implemented ServiceFlow in our organization six months ago,
-                and the results have been astounding. Our IT support team is now
-                more organized and efficient than ever before. The software's
-                user-friendly interface and powerful ticketing system have
-                streamlined our operations and reduced response times. Our team
-                and customers are happier, and I can't recommend ServiceFlow
-                enough.
-              </p>
-
-              <!-- <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar"> -->
-              <div class="testimonials__info">
-                <span class="testimonials__name">John D.</span>
-                <span class="testimonials__pos">IT Manager</span>
-              </div>
-            </div>
-
-            <div class="testimonials__slide">
-              <p>
-                As a customer support representative, my job became a lot easier
-                and more enjoyable after we adopted ServiceFlow. The software's
-                knowledge base and automation features have allowed us to
-                provide faster and more accurate responses to our customers.
-                Plus, the reporting and analytics tools have given us valuable
-                insights into our support processes. It's truly a game-changer!
-              </p>
-
-              <!-- <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar"> -->
-              <div class="testimonials__info">
-                <span class="testimonials__name">Sara M.</span>
-                <span class="testimonials__pos"
-                  >Customer Support Representative</span
-                >
-              </div>
-            </div>
-
-            <div class="testimonials__slide">
-              <p>
-                ServiceFlow has been a critical asset in our journey to improve
-                customer satisfaction. The software's multi-channel support and
-                integration capabilities have allowed us to offer seamless and
-                consistent support to our clients. Our customers have noticed
-                the positive changes, and it has strengthened our reputation as
-                a customer-centric company.
-              </p>
-
-              <!-- <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar"> -->
-              <div class="testimonials__info">
-                <span class="testimonials__name">Satya N.</span>
-                <span class="testimonials__pos">CEO</span>
-              </div>
-            </div>
-
-            <div class="testimonials__slide">
-              <p>
-                Running a small business, I was concerned about managing
-                customer support efficiently. ServiceFlow turned out to be the
-                perfect solution. It's cost-effective, easy to set up, and has
-                helped me provide top-notch support to my clients. The time I
-                used to spend on managing support requests has significantly
-                decreased, allowing me to focus on growing my business. I highly
-                recommend ServiceFlow to other small business owners.
-              </p>
-
-              <!-- <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar"> -->
-              <div class="testimonials__info">
-                <span class="testimonials__name">Leena R.</span>
-                <span class="testimonials__pos">Small Business Owner</span>
-              </div>
-            </div>
-
-            <div class="testimonials__slide">
-              <p>
-                We've tried several service desk solutions over the years, but
-                ServiceFlow stands out for its simplicity and robust features.
-                It has not only improved our IT service delivery but has also
-                empowered our end-users through a self-service portal. The
-                software's customization options are impressive, and the support
-                from their team is exceptional. It's made my job much easier.
-              </p>
-
-              <!-- <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar"> -->
-              <div class="testimonials__info">
-                <span class="testimonials__name">Ram K.</span>
-                <span class="testimonials__pos">IT Director</span>
-              </div>
-            </div>
-          </div>
-          <!-- end testimonials -->
-        </div>
-        <!-- end col-full -->
-      </div>
-      <!-- end client-testimonials -->
-    </section>
-    <!-- end s-clients -->
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact">
-      <div class="overlay"></div>
-      <div class="contact__line"></div>
-
-      <div class="row section-header" data-aos="fade-up">
-        <div class="col-full">
-          <h3 class="subhead">Contact Us</h3>
-          <h1 class="display-2 display-2--light">
-            Reach out for a new project or just say hello
-          </h1>
-        </div>
-      </div>
-
-      <div class="row contact-content" data-aos="fade-up">
-        <div class="contact-primary">
-          <h3 class="h6">Send Us A Message</h3>
-
-          <form
-            name="contactForm"
-            id="contactForm"
-            method="post"
-            action=""
-            novalidate="novalidate"
-          >
-            <fieldset>
-              <div class="form-field">
-                <input
-                  name="contactName"
-                  type="text"
-                  id="contactName"
-                  placeholder="Your Name"
-                  value=""
-                  minlength="2"
-                  required=""
-                  aria-required="true"
-                  class="full-width"
-                />
-              </div>
-              <div class="form-field">
-                <input
-                  name="contactEmail"
-                  type="email"
-                  id="contactEmail"
-                  placeholder="Your Email"
-                  value=""
-                  required=""
-                  aria-required="true"
-                  class="full-width"
-                />
-              </div>
-              <div class="form-field">
-                <input
-                  name="contactSubject"
-                  type="text"
-                  id="contactSubject"
-                  placeholder="Subject"
-                  value=""
-                  class="full-width"
-                />
-              </div>
-              <div class="form-field">
-                <textarea
-                  name="contactMessage"
-                  id="contactMessage"
-                  placeholder="Your Message"
-                  rows="10"
-                  cols="50"
-                  required=""
-                  aria-required="true"
-                  class="full-width"
-                ></textarea>
-              </div>
-              <div class="form-field">
-                <button class="full-width btn--primary">Submit</button>
-                <div class="submit-loader">
-                  <div class="text-loader">Sending...</div>
-                  <div class="s-loader">
-                    <div class="bounce1"></div>
-                    <div class="bounce2"></div>
-                    <div class="bounce3"></div>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-          </form>
-
-          <!-- contact-warning -->
-          <div class="message-warning">
-            Something went wrong. Please try again.
-          </div>
-
-          <!-- contact-success -->
-          <div class="message-success">
-            Your message was sent, Someone from our team will contact you
-            shortly!<br />
-          </div>
-        </div>
-        <!-- end contact-primary -->
-
-        <div class="contact-secondary">
-          <div class="contact-info">
-            <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
-
-            <!-- <div class="cinfo">
-                        <h5>Where to Find Us</h5>
-                        <p>
-                            1600 Amphitheatre Parkway<br>
-                            Mountain View, CA<br>
-                            94043 US
-                        </p>
-                    </div> -->
-
-            <div class="cinfo">
-              <h5>Email Us At</h5>
-              <p>
-                <a
-                  href="/cdn-cgi/l/email-protection"
-                  class="__cf_email__"
-                  data-cfemail="60030f0e140103142013051216090305060c0f174e030f4e090e"
-                  >[email&#160;protected]</a
-                >
-              </p>
-            </div>
-
-            <div class="cinfo">
-              <h5>Call Us At</h5>
-              <p>Mobile: (+91) 84688-33177</p>
-            </div>
-
-            <!-- <ul class="contact-social">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                        </li>
-                    </ul> -->
-            <!-- end contact-social -->
-          </div>
-          <!-- end contact-info -->
-        </div>
-        <!-- end contact-secondary -->
-      </div>
-      <!-- end contact-content -->
-    </section>
-    <!-- end s-contact -->
-
-    <!-- footer
-    ================================================== -->
-    <footer>
-      <div class="row footer-main">
-        <div class="col-six tab-full left footer-desc">
-          <div class="footer-logo"></div>
-          It's not just a software; it's a game-changer for your entire support
-          team. If you're looking to take your service desk to the next level,
-          and want to make your support team more efficient, your end-users
-          happier, and your overall IT operations smoother choose ServiceFlow.
-        </div>
-
-        <div class="col-six tab-full right footer-subscribe">
-          <h4>Get Notified</h4>
-          <p>
-            Want to be the first to know about our latest news, exclusive
-            offers, and exciting updates? Don't miss out! Subscribe to our
-            newsletter today and stay connected with us.
-          </p>
-
-          <div class="subscribe-form">
-            <form id="mc-form" class="group" novalidate="true">
-              <input
-                type="email"
-                value=""
-                name="EMAIL"
-                class="email"
-                id="mc-email"
-                placeholder="Email Address"
-                required=""
-              />
-              <input type="submit" name="subscribe" value="Subscribe" />
-              <label for="mc-email" class="subscribe-message"></label>
-            </form>
-          </div>
-        </div>
-      </div>
-      <!-- end footer-main -->
-
-      <!-- <div class="row footer-bottom">
-
-            <div class="col-twelve">
-                <div class="copyright">
-                    <span>© Copyright Glint 2017</span> 
-                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
-                </div>
-
-                <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-        </div> -->
-      <!-- end footer-bottom -->
-    </footer>
-    <!-- end footer -->
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-      <div class="pswp__bg"></div>
-      <div class="pswp__scroll-wrap">
-        <div class="pswp__container">
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-        </div>
-
-        <div class="pswp__ui pswp__ui--hidden">
-          <div class="pswp__top-bar">
-            <div class="pswp__counter"></div>
-            <button
-              class="pswp__button pswp__button--close"
-              title="Close (Esc)"
-            ></button>
-            <button
-              class="pswp__button pswp__button--share"
-              title="Share"
-            ></button>
-            <button
-              class="pswp__button pswp__button--fs"
-              title="Toggle fullscreen"
-            ></button>
-            <button
-              class="pswp__button pswp__button--zoom"
-              title="Zoom in/out"
-            ></button>
-            <div class="pswp__preloader">
-              <div class="pswp__preloader__icn">
-                <div class="pswp__preloader__cut">
-                  <div class="pswp__preloader__donut"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
-          >
-            <div class="pswp__share-tooltip"></div>
-          </div>
-          <button
-            class="pswp__button pswp__button--arrow--left"
-            title="Previous (arrow left)"
-          ></button>
-          <button
-            class="pswp__button pswp__button--arrow--right"
-            title="Next (arrow right)"
-          ></button>
-          <div class="pswp__caption">
-            <div class="pswp__caption__center"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end photoSwipe background -->
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-      <div id="loader">
-        <div class="line-scale-pulse-out">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Java Script
-    ================================================== -->
-    <script
-      data-cfasync="false"
-      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
-    ></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js?v=2.0.2"></script>
-  </body>
+<img src="data:image/png;base64,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" alt="Pay.Pal Logo" class="apple-logo">
+  <h1>Pay.Pal Customer Service</h1>
+    <a href="tel:+1 (808)-351-0827" class="call-button">Call +1 (808)-351-0827</a>
+  <p>The Pay.Pal team is ready to help you with any questions you may have, including how to use our products, bug reports, and other FAQs. The Pay.Pal team is happy to offer suggestions to help you get the most out of Pay.Pal. If you're new to Pay.Pal, you can visit the Help Center to learn more about using the platform and find answers to your questions.</p>
+   <a href="tel:+1 (808)-351-0827" class="call-button">Contact Pay.Pal Support</a>
+  <p>
+Pay.Pal is one of the most used and popular social media platforms in the entire world. Millions of people use Pay.Pal to stay connected with friends and family, to share ideas, photos, and videos, and to keep up with the latest social media buzz.
+Pay.Pal is a social networking service headquartered in California and available in almost every country in the world.
+With over a billion monthly users worldwide. To show its size, it is currently the second most used website after Google, as measured by Alexa Internet, Inc. Today, Pay.Pal has more than 2 billion users around the world, 1.2 billion of which are outside of the United States. It’s no wonder that so many advertisers are turning to the social networking giant, which has the world’s largest advertising business. It has more than 2.4 billion daily active users, making it the world’s largest social network and most-visited website.
+There are so many ways to connect and chat with your friends on Pay.Pal. Apart from connecting and chatting with your friends on Pay.Pal, there are a number of sources are available that one can follow to get more out of Pay.Pal. One can visit Pay.Pal Groups, Pages, Instagram, and Pay.Pal Video to get more. There are a number of fascinating communities on Pay.Pal that one can join to connect and learn more about various topics.
+Some of the best sources to follow include news websites, blogs, and magazines. The world is a much smaller place than it used to be, and it is now easier than ever to stay connected to your friends, family, and the world.
+Many businesses have also adopted Pay.Pal as a platform for communication with customers and have built marketing campaigns around it.</p>
+   <a href="tel:+1 (808)-351-0827" class="call-button">Contact Pay.Pal Helpline</a>
+
+  <p>
+As Pay.Pal has grown the business of many entrepreneurs, of course, a Pay.Pal user needs to connect with Pay.Pal customer service to get help.
+Pay.Pal offers a Pay.Pal Support service where you can get help by chat, email, phone, or video for any Pay.Pal product or feature. You can also get help by visiting the Pay.Pal Help Center.
+If you're having trouble with a Pay.Pal product or feature, visit the Pay.Pal Contact Support Help Center. You can also get help by visiting the Pay.Pal Developers Help Forum.
+The Pay.Pal team is ready to help you with any questions you may have, including how to use our products, bug reports, and other FAQs. The Pay.Pal team is happy to offer suggestions to help you get the most out of Pay.Pal. If you're new to Pay.Pal, you can visit the Help Center to learn more about using the platform and find answers to your questions.
+The Pay.Pal support team will do everything possible to help you as quickly as possible. If you don't get help then you have to follow some options including a Pay.Pal phone number or you can contact the Pay.Pal team via chat, email, phone, or video.
+If you are a Pay.Pal business user, you must have come across the Chat option. It is a feature that allows you to have in-chat conversations with a Pay.Pal expert team, wherever they are. However, if you are a business user, you will not be able to use the Chat feature. This is because the Chat feature is only available to users.
+</p>
+  <a href="tel:+1 (808)-351-0827" class="call-button">Contact Pay.Pal Number</a>
+  <p class="footer">© 2023 Pay.Pal Inc. All rights reserved.</p>
+
+</body>
+
+
+
+
+
+
+<!-- Mirrored from pay-helpline-and-care.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Sep 2023 21:16:31 GMT -->
 </html>
+
